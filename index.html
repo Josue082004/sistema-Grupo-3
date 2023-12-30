@@ -1,67 +1,140 @@
-
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Información del Proyecto</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Información del Proyecto</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Description" lang="en" content="open source html and css template">
+<meta name="author" content="mlp design">
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="slidy.css">
 </head>
 <body>
+<div id="menu">
+<nav>
+<input type="checkbox" id="show-menu" role="button">
+<label for="show-menu" class="open"><span class="fa fa-bars"></span></label>
+<label for="show-menu" class="close"><span class="fa fa-times"></span></label>
+<ul id="topnav">  
+<li><a href="">Screen Page</a></li>
+<li><a href="https://github.com/Josue082004/sistema-Grupo-3">Repositorio</a></li>
+<li><a href="https://docs.google.com/document/d/1RNEzSqyl-DYCMr_OUsFy2odl8n2gE7mC7CBRzbhTBHI/edit?pli=1">Informe</a></li>
+<li>
+	<ul>
+	<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+	<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+	<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+	</ul>
+</li>
+</ul>
+</nav>
+</div>
+<div id="container">
+<div id="pageheader">
+<h1>Proyecto Grupo 3</h1>
+<p>Fluid. Responsive. HTML5.</p>
+</div>
 
-    <header>
-        <h1>Proyecto Grupo 3</h1>
-      
-    </header>
+<div class="section">
+<div class="pageitem">
+<div id="slider">
+<figure>
+<img src="http://lorempixel.com/g/680/300/people/1" alt>
+<img src="http://lorempixel.com/g/680/300/nature/1" alt>
+<img src="http://lorempixel.com/g/680/300/city/1" alt>
+<img src="http://lorempixel.com/g/680/300/people/1" alt> <!-- note 1st image is also the last -->
+</figure>
+</div>
+</div>
+</div>
 
-    <section>
-        <h2>Objetivo General: </h2>
-        <p>Crear una plataforma que permita el monitoreo eficiente del consumo eléctrico en edificaciones,
-           promoviendo la eficiencia energética y facilitando la toma de decisiones informada.</p>
-        <h2>Objetivos Específicos: </h2>
-        <ul>
-            <li>Desarrollar una infraestructura que permita la captura y visualización en tiempo real de 
-            los datos de consumo eléctrico en diferentes áreas de un edificio.</li>
-            <li>Promover la eficiencia energética.</li>
-            <li>Facilitar la toma de decisiones informada.</li>
-        
-    </section>
-        <h2>Problemas a Resolver: </h2>
-        <p>En muchos entornos, la gestión eficiente del consumo eléctrico en edificios es un desafío importante. 
-          La falta de herramientas especializadas para el monitoreo en tiempo real y la toma de decisiones basada 
-          en datos puede llevar a un uso ineficiente de la energía. Este proyecto busca abordar este problema al 
-          proporcionar un sistema integral que permita la supervisión continua, generación de informes automáticos
-          y alertas proactivas para mejorar la eficiencia energética.</p>
+<div class="section">
+<div class="pageitem">
+<div class="col">
+<h2>Objetivo General</h2>
+<p>Crear una plataforma que permita el monitoreo eficiente del consumo eléctrico en edificaciones, 
+	promoviendo la eficiencia energética y facilitando la toma de decisiones informada.</p>
+</div>
+<div class="col">
+<h2>Objetivos Específicos</h2>
+<p>
+	<ul>
+		<li>Desarrollar una infraestructura que permita la captura y visualización en tiempo real 
+			de los datos de consumo eléctrico en diferentes áreas de un edificio.</li>
+		<li>Promover la eficiencia energética.</li>
+		<li>Facilitar la toma de decisiones informada.</li>
+	</ul>
+</p>
+</div>
+</div>
+</div>
 
-    <section>
-        <h2>Misión</h2>
-        <p>Nuestra misión es desarrollar un Sistema Integral de Gestión Energética que permita a edificaciones de 
-        diversos tipos optimizar su consumo eléctrico, fomentando la eficiencia y la sostenibilidad. Nos 
-        comprometemos a ofrecer soluciones tecnológicas avanzadas que impulsen un uso consciente de la energía.<p>
-        <h2>Visión</h2>
-        <p>Ser una empresa líder en el desarrollo de soluciones tecnológicas para la gestión eficiente de la 
-          energía, reconocida por su innovación, calidad y compromiso con el medio ambiente.Visualizamos un futuro
-           en el que nuestra tecnología contribuya significativamente a la reducción del impacto ambiental y a la 
-           creación de entornos más sostenibles y eficientes energéticamente.</p>
-    </section>
-       <h2>Desarrollo - Documentación</h2>
-       <p>Desde un enfoque global esta página ha sido creada con la finalidad de documentar los avances de sistema
-         de consumo eléctrico que hemos venido realizando cada unidad  </p>
-      <p>Link al repositorio de está página (GitHub Pages):</p>
-      <a href="https://github.com/Josue082004/sistema-Grupo-3">https://github.com/Josue082004/sistema-Grupo-3</a>
-        <p> Primeramente cabe resaltar que se investigo acerca de sistemas de consumo eléctricos modernos, el cual 
-          nos sirvio de guía para la elaboración del primer borrador del diseño UML de nuestro sistema, que posteriormente
-        luego de varios feedback se obtuvo el diseño general de nuestro sitema de consumo eléctrico, que se lo presenta 
-      a continuación: </p>
-      <img src="Imagenes/Diagrama UML.jpeg" alt="Diagrama UML">
-      <p>Luego de ello se procedió al desarrollo de las clases en el lenguaje de JAVA, con sus respectivos atributos, métodos
-        y relaciones, que se puede observar en el siguiente link que dirige al repositorio directo del proyecto en general: (poner link)</p>
-      <p>Posteriormente se elaboraron los casos de uso e historias de usuario que se puede evidenciar en el siguiente link de 
-        drive: 
-        <a href="https://docs.google.com/document/d/1RNEzSqyl-DYCMr_OUsFy2odl8n2gE7mC7CBRzbhTBHI/edit?usp=sharing">https://docs.google.com/document/d/1RNEzSqyl-DYCMr_OUsFy2odl8n2gE7mC7CBRzbhTBHI/edit?usp=sharing</a>
-      </p>
-      <p>En relación a lo anterior, semana tras semana hemos venido realizando el diseño general de nuestro sistema de consumo
-        eléctrico, en el que hemos implementado HTML, CSS para el funcionamiento de la misma</p>
-      <p>A continuación se presentan capturas de la pagina web responsive</p>
+<div class="section">
+<div class="pageitem">
+<h2>Problemas a Resolver</h2>
+<p>En muchos entornos, la gestión eficiente del consumo eléctrico en edificios es un desafío importante. 
+	La falta de herramientas especializadas para el monitoreo en tiempo real y la toma de decisiones basada 
+	en datos puede llevar a un uso ineficiente de la energía. Este proyecto busca abordar este problema al 
+	proporcionar un sistema integral que permita la supervisión continua, generación de informes automáticos 
+	y alertas proactivas para mejorar la eficiencia energética.</p>
+</div>
+</div>
+
+<div class="section">
+<div class="pageitem">
+<div class="col">
+<h2>Misión</h2>
+<p>Nuestra misión es desarrollar un Sistema Integral de Gestión Energética que permita a edificaciones de diversos 
+	tipos optimizar su consumo eléctrico, fomentando la eficiencia y la sostenibilidad. Nos comprometemos a ofrecer 
+	soluciones tecnológicas avanzadas que impulsen un uso consciente de la energía.</p>
+
+</div>
+<div class="col">
+<h2>Visión</h2>
+<p>Ser una empresa líder en el desarrollo de soluciones tecnológicas para la gestión eficiente de la energía, 
+	reconocida por su innovación, calidad y compromiso con el medio ambiente.Visualizamos un futuro en el que 
+	nuestra tecnología contribuya significativamente a la reducción del impacto ambiental y a la creación de 
+	entornos más sostenibles y eficientes energéticamente.</p>
+</div>
+</div>
+</div>
+<div class="section">
+	<div class="pageitem">
+	<h2>Desarrollo - Documentación</h2>
+	<p>Desde un enfoque global esta página ha sido creada con la finalidad de documentar los avances de sistema de 
+		consumo eléctrico que hemos venido realizando cada unidad.
+		<br>
+		Primeramente cabe resaltar que se investigo acerca de sistemas de consumo eléctricos modernos, el cual nos 
+		sirvio de guía para la elaboración del primer borrador del diseño UML de nuestro sistema, que posteriormente 
+		luego de varios feedback se obtuvo el diseño general de nuestro sitema de consumo eléctrico, que se lo 
+		presenta a continuación:</p>
+		<div class="diagrama">
+			<img src="Diagrama UML.jpeg" alt="Diagrama UML">
+		</div>
+	</div>
+	</div>
+<!-- footer items go here
+<div class="section">
+<div id="footer">
+
+</div>
+</div>
+-->
+
+<div class="section">
+<div id="credits">
+    <div class="col"><p>Random by MLPdesign.</p></div>
+    <div class="col"><p><a href="#">Privacy</a> | <a href="#">Support</a> | <a href="#">Site Map</a></p></div>
+
+<!-- This part has to be kept intact under the CC-NC Licence -->
+    <div class="col"><p><a href="#">HTML & CSS</a> by MLPdesign</p></div>
+<!-- CC-NC Licence credit ends here -->
+
+</div>
+</div>
+
+</div>
 </body>
 </html>
