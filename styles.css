@@ -169,11 +169,9 @@ ul#topnav li> ul > li{
 .open, .close { background-color:inherit; color:#fff; text-align:right; font-weight:normal; font-size:1.5em; padding: 0; position:absolute; top:10%; right:5%; display:none; }
 
 
-/* start make items responsive */
 @media screen and (max-width : 1024px){
 
 
-/* menu */
 ul#topnav {display:none;}
 .hide, .open { display:block;}
 
@@ -190,7 +188,7 @@ ul#topnav li a:hover {text-decoration:underline;}
 ul#topnav li> ul { display:table; float:none; table-layout:fixed; margin:0 auto;}
 ul#topnav li> ul > li {padding-left:10px; }
 
-/* other items */
+
 .pageitem h2 {font-size:120%;}
 .pageitem p { padding:0; line-height:150%; font-size:99%;}
 .pageitem .col {padding:0 3% 0 2%; }
@@ -215,7 +213,7 @@ ul#topnav li> ul > li {padding-left:10px; }
 }
 
 .salto-margen {
-    margin-bottom: 100px; /* Ajusta este valor según lo que necesites */
+    margin-bottom: 100px; 
 }
 
 .image-container {
@@ -226,7 +224,7 @@ ul#topnav li> ul > li {padding-left:10px; }
 
 
 .image-container img {
-    width: 300px; /* Cambia el tamaño de las imágenes según lo necesites */
+    width: 300px; 
     height: auto;
     margin: 10px;
     border: 1px solid #ddd;
