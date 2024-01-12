@@ -57,3 +57,27 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+.subrayado {
+  text-decoration: underline;
+  color: #7d0d0d;
+}
+
+.subrayado1 {
+  text-decoration: underline;
+  color: #0f95b0;
+}
+
+.subrayado2 {
+  text-decoration: underline;
+  color: #258966;
+}
+
+.subrayado3 {
+  text-decoration: underline;
+  color: #254889;
+}
+
+.colorido {
+  color: #021068;
+}
