@@ -30,7 +30,8 @@
 
 body {
   margin: 0;
-  background: linear-gradient(to right, #f0f0f0, #b7b7d1);
+  background: linear-gradient(to right, #f0f0f0, #9c9cc9,#7b99ab);
+  color: #000000;
 }
 
 div#slider {
