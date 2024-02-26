@@ -80,6 +80,11 @@ img {
   color: #254889;
 }
 
+.subrayado4 {
+  text-decoration: underline;
+  color: #7d0d0d00;
+}
+
 .colorido {
   color: #021068;
 }
